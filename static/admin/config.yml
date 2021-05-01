@@ -36,7 +36,7 @@ collections:
         
   - name: "categories"
     label: "カテゴリ"
-    folder: "content/categories"
+    folder: "src/pages/categories"
     create: true
     fields:
       - { label: "カテゴリ名", name: "title", widget: "string" }
