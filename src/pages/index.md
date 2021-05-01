@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ミュージカルフリーク
-image: /img/home-jumbotron.jpg
+image: /img/sudan-ouyang-uquka_ruwxq-unsplash.jpg
 heading: コンテンツ
 subheading: ミュージカルをもっと楽しみたい人のためのブログサイト
 mainpitch:
