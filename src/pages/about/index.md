@@ -1,8 +1,6 @@
 ---
 templateKey: about-page
 path: /about
-title: About our values
+title: te
 ---
-### ミュージカルラウンジとは
-
-ミュージカルラウンジはミュージカルをもっと楽しみたい人のためのブログサイトです。
+### test
