@@ -26,6 +26,21 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - label: "カテゴリ"
+        name: "category"
+        widget: "relation"
+        collection: "categories"
+        searchFields: ["title", "body"]
+        valueField: "title"
+        displayFields: ["title"]
+        
+  - name: "categories"
+    label: "カテゴリ"
+    folder: "src/pages/categories"
+    create: true
+    fields:
+      - { label: "カテゴリ名", name: "title", widget: "string" }
+      - { label: "説明文", name: "body", widget: "text" } 
        
   - name: "pages"
     label: "Pages"
